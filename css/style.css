@@ -1,0 +1,44 @@
+body, html {
+    height: 100%;
+  }
+  .login-container {
+    height: 100vh;
+  }
+  .login-image {
+    background: url('https://source.unsplash.com/600x800/?hospital,healthcare') no-repeat center center;
+    background-size: cover;
+  }
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #d7d7ff;
+    border-radius: 20px;
+    /* padding: 50px; */
+  }
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #a6a6fc;
+  }
+  .btn-primary {
+    background-color: #a6a6fc;
+    border: none;
+  }
+  .btn-primary:hover {
+    background-color: #a6a6fc;
+}
+  .lower-button {
+    text-align: center;
+  }
+  a:link {
+    color: #8a8afb;
+    font-weight: 700;
+  }
+  a:link:hover {
+    text-decoration: none;
+  }
+  #message {
+    text-align: center;
+    margin-top: 10px;
+  }
